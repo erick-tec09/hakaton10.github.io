@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+    <script>
+                /* Crear una función que reciba n cantidad de argumentos y los sume ( utilizar parametrosrest) */
+
+                
+                 
+              let    sumar = (a, b, ...c) =>{
+
+                        let resultado = a + b;
+
+                        c.forEach(n => {
+
+                        resultado += n;
+
+                        });
+
+                        return console.log(resultado);
+
+                        }
+
+                        sumar(1,2); //Imprime 3
+
+                        sumar(1,2,3); //Imprime 6
+
+                        sumar(1,2,3,4); //Imprime 10
+
+                        sumar(1,2,3,4,5); //Imprime 15
+         
+       
+    </script>
+</body>
+</html>
